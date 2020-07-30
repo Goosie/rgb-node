@@ -40,10 +40,17 @@ derive_wrapper = "~0.1.6"
 # TODO: Move this dependency to LNP/BP core library
 lightning-invoice = { git = "https://github.com/LNP-BP/rust-lightning-invoice.git", branch = "comment-systemtime-check" }
 
+#[dependencies.lnpbp]
+#git = "https://github.com/lnp-bp/rust-lnpbp"
+#branch = "master"
+#features = ["all"]
+
 [dependencies.lnpbp]
-git = "https://github.com/lnp-bp/rust-lnpbp"
-branch = "master"
+git = "https://github.com/rajarshimaitra/rust-lnpbp"
+branch = "build-fix-28/07"
 features = ["all"]
+
+
 
 [dependencies.lnpbp_derive]
 git = "https://github.com/lnp-bp/rust-lnpbp"
